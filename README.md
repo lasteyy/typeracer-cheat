@@ -1,0 +1,2 @@
+# typeracer-cheat
+typeracer cheat
