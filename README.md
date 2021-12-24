@@ -1,7 +1,7 @@
 # typeracer-cheat
 Right click -> Inspect -> Console -> Paste:
 
-'function triggerKeyboardEvent(el, keyCode, type)
+function triggerKeyboardEvent(el, keyCode, type)
 {
     var eventObj = document.createEventObject ?
         document.createEventObject() : document.createEvent("Events");
@@ -31,4 +31,4 @@ function a () {
 	triggerKeyboardEvent(input, input.value.charCodeAt(0), "keyup")
 	setTimeout(a, 50 * Math.random())
 }
-a();'
+a();
